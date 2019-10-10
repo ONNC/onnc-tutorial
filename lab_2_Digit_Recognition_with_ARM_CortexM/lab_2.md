@@ -37,12 +37,6 @@ Next, use the following command to download the tutorial source code. There are 
 $ git clone https://github.com/ONNC/onnc-tutorial.git
 ```
 
-Use the following command to download the application software as well as the CMSIS-NN library.
-
-```sh
-$ git clone https://github.com/ONNC/onnc-cmsis-example.git
-```
-
 Pull the Docker images from the Docker Hub using the following commands.
 
 ```sh
