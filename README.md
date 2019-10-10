@@ -13,6 +13,17 @@ Researchers and practitioners in academia or industry looking for an open-source
 * Wei-Fen Lin (weifen@skymizer.com)
 * Cheng-Tao Hsieh (cthsieh@skymizer.com)
 
+## Hands-on Labs
+
+* Lab 1. [ONNC Working Environment Setup](https://github.com/ONNC/onnc-tutorial/blob/master/lab_1_Environment_Setup/lab_1.md)
+* Lab 2. [Digit Recognition with ARM Cortex-M](https://github.com/ONNC/onnc-tutorial/blob/master/lab_2_Digit_Recognition_with_ARM_CortexM/lab_2.md)
+* Lab 3. [Starting a New Backend](https://github.com/ONNC/onnc-tutorial/blob/master/lab_3_Starting_New_Backend/lab_3.md)
+* Lab 4. [Code Emitting](https://github.com/ONNC/onnc-tutorial/blob/master/lab_4_Code_Emitting/lab_4.md)
+* Lab 5. [CPU Fallback Support](https://github.com/ONNC/onnc-tutorial/blob/master/lab_5_CPU_Fallback/lab_5.md)
+* Lab 6. [Manipulating ONNC IR and Optimization](https://github.com/ONNC/onnc-tutorial/blob/master/lab_6_Manipulating_ONNC_IR/lab_6.md)
+* Lab 7. [ONNC IR Extension](https://github.com/ONNC/onnc-tutorial/blob/master/lab_7_ONNC_IR_Extension/lab_7.md)
+* Lab 8. [Hardware-specific Optimization](https://github.com/ONNC/onnc-tutorial/blob/master/lab_8_Mul_Add_Reordering_and_Fusion/lab_8.md)
+
 ## References
 
 ### Papers

@@ -1,4 +1,4 @@
-# Digit Recognition with ARM CortexM
+# Digit Recognition with ARM Cortex-M
 
 
 ## Preface
