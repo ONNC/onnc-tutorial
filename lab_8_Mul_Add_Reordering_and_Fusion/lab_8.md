@@ -70,7 +70,7 @@ $ docker pull onnc/vp
 # Prepare ONNC and tutorial source code.
 $ git clone https://github.com/ONNC/onnc.git
 $ cd onnc; git checkout tags/1.2.0; cd ..
-$ git clone git@github.com:ONNC/onnc-tutorial.git
+$ git clone https://github.com/ONNC/onnc-tutorial.git
 
 # Start the onnc/onnc-community Docker.
 $ docker run -ti --rm -v <absolute/path/to/onnc>:/onnc/onnc -v <absolute/path/to/tutorial>:/tutorial onnc/onnc-community
