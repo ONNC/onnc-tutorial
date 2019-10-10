@@ -28,9 +28,12 @@ Researchers and practitioners in academia or industry looking for an open-source
 
 ### Papers
 
-* W. F. Lin, D. Y. Tsai, L. Tang, C. T. Hsieh, C. Y. Chou, P. H. Chang, and L. Hsu, “ONNC: A compilation framework connecting ONNX to proprietary deep learning accelerators,” in IEEE International Conference on Artificial Intelligence Circuits and Systems (AICAS 2019). IEEE, 2019.
+* W. F. Lin, D. Y. Tsai, L. Tang, C. T. Hsieh, C. Y. Chou, P. H. Chang, and L. Hsu, “ONNC: A compilation framework connecting ONNX to proprietary deep learning accelerators,” in IEEE International Conference on Artificial Intelligence Circuits and Systems (AICAS 2019). IEEE, 2019. 
+Download PDF: [Link](https://skymizer.com/publications/Skymizer-AICAS2019.pdf)
+
 
 * W.F. Lin, C. T. Hsieh, C. Y. Chou, "ONNC-based Software Development Platform for Configurable NVDLA Designs", to appear in IEEE International Symposium on VLSI Design, Automation and Test (VLSI-DAT 2019). IEEE, 2019
+Download PDF: [Link](https://skymizer.com/publications/Skymizer-VLSIDAT2019.pdf)
 
 ### Documentation
 
