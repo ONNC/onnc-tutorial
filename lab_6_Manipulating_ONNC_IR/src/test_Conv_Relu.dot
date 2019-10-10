@@ -1,0 +1,19 @@
+digraph {
+  Initializer_94228347773248 [label=Initializer]
+  Initializer_94228347773248 -> W
+  W [shape=rect]
+  InputOperator_94228348437312 [label=InputOperator]
+  InputOperator_94228348437312 -> INPUT0
+  INPUT0 [shape=rect]
+  Conv_94228348295232 [label=Conv]
+  INPUT0 -> Conv_94228348295232
+  W -> Conv_94228348295232
+  Conv_94228348295232 -> conv_out
+  conv_out [shape=rect]
+  Relu_94228347714848 [label=Relu]
+  conv_out -> Relu_94228347714848
+  Relu_94228347714848 -> OUTPUT0
+  OUTPUT0 [shape=rect]
+  OutputOperator_94228348468896 [label=OutputOperator]
+  OUTPUT0 -> OutputOperator_94228348468896
+}

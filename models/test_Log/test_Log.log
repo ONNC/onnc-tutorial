@@ -1,0 +1,10 @@
+# ./nvdla_runtime --loadable test_Log.nvdla  --image input1x5x7.pgm  --rawdump
+creating new runtime context...
+Emulator starting
+ppgminfo 1 5 7
+pgm2dimg 1 5 7 1 32 160 160
+submitting tasks...
+Work Found!
+Work Done
+Shutdown signal received, exiting
+Test pass

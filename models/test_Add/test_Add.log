@@ -1,0 +1,60 @@
+# ./nvdla_runtime --loadable test_Add.nvdla --image input1x5x7.pgm --rawdump
+creating new runtime context...
+Emulator starting
+ppgminfo 1 5 7
+pgm2dimg 1 5 7 1 32 160 160
+submitting tasks...
+[   37.512018] Enter:dla_read_network_config
+[   37.513711] Exit:dla_read_network_config status=0
+[   37.513905] Enter: dla_initiate_processors
+[   37.514392] Enter: dla_submit_operation
+[   37.514536] Prepare SDP operation index 0 ROI 0 dep_count 0
+[   37.514717] Enter: dla_prepare_operation
+[   37.515103] processor:SDP group:0, rdma_group:0 available
+[   37.515332] Enter: dla_read_config
+[   37.518969] Exit: dla_read_config
+[   37.519171] Exit: dla_prepare_operation status=0
+[   37.519372] Enter: dla_program_operation
+[   37.519527] Program SDP operation index 0 ROI 0 Group[0]
+[   37.522174] no desc get due to index==-1
+[   37.522364] no desc get due to index==-1
+[   37.522492] no desc get due to index==-1
+[   37.522629] no desc get due to index==-1
+[   37.522766] no desc get due to index==-1
+[   37.522908] no desc get due to index==-1
+[   37.523053] no desc get due to index==-1
+[   37.523201] Enter: dla_op_programmed
+[   37.523427] Exit: dla_op_programmed
+[   37.523565] Exit: dla_program_operation status=0
+[   37.523756] Enter: dla_enable_operation
+[   37.523938] Enable SDP operation index 0 ROI 0
+[   37.524254] Enter: dla_op_enabled
+[   37.524388] Exit: dla_op_enabled
+[   37.524507] Exit: dla_enable_operation status=0
+[   37.526518] Exit: dla_submit_operation
+[   37.526796] Enter: dla_dequeue_operation
+[   37.526982] exit SDP as there's no further operation
+[   37.527187] Exit: dla_dequeue_operation
+[   37.527355] Exit: dla_initiate_processors status=0
+[   37.547196] Enter:dla_handle_events, processor:BDMA
+[   37.547525] Exit:dla_handle_events, ret:0
+[   37.547753] Enter:dla_handle_events, processor:Convolution
+[   37.547940] Exit:dla_handle_events, ret:0
+[   37.548077] Enter:dla_handle_events, processor:SDP
+[   37.548251] Handle op complete event, processor SDP group 0
+[   37.548465] Enter:dla_op_completion processor SDP group0
+[   37.548723] Completed SDP operation index 0 ROI 0
+[   37.549006] 1 HWLs done, totally 1 layers
+[   37.549223] Enter: dla_free_op_desc op desc index 0 ROI 0
+[   37.549678] Exit: dla_free_op_desc
+[   37.549856] Exit:dla_op_completion processor SDP group0 status=0
+[   37.550126] Exit:dla_handle_events, ret:0
+[   37.550281] Enter:dla_handle_events, processor:PDP
+[   37.550484] Exit:dla_handle_events, ret:0
+[   37.550637] Enter:dla_handle_events, processor:CDP
+[   37.550813] Exit:dla_handle_events, ret:0
+[   37.550966] Enter:dla_handle_events, processor:RUBIK
+[   37.551132] Exit:dla_handle_events, ret:0
+[   37.553519] reset engine done
+Shutdown signal received, exiting
+Test pass
