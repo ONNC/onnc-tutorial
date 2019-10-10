@@ -26,7 +26,7 @@ $ cd ..
 Use the following command to download the tutorial material. There are some example DNN models and code snippets you will use in the subsequent labs.
 
 ```sh
-$ git clone git@github.com:ONNC/onnc-tutorial.git
+$ git clone https://github.com/ONNC/onnc-tutorial.git
 ```
 
 Pull the Docker image from the Docker Hub using the following commands.
