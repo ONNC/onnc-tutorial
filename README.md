@@ -37,10 +37,10 @@ Download PDF: [Link](https://skymizer.com/publications/Skymizer-VLSIDAT2019.pdf)
 
 ### Documentation
 
-- [ONNC Utilities](docs/ONNC-Utilities.md)
-- [ONNC Pass Manager Getting Started Guide](docs/ONNC-Pass-Manager-Getting-Started-Guide.md)
-- [ONNC Backend Developer Guide](docs/ONNC-Backend-Porting-Guide.md)
-- [The Code Emitting Pass User Guide](docs/The-Code-Emitting-Pass-User-Guide.md)
-- [ONNC IR Extension Guide](docs/ONNC-IR-Extension-Guide.md)
+- [ONNC Utilities](https://github.com/ONNC/onnc/blob/master/docs/ONNC-Utilities.md)
+- [ONNC Pass Manager Getting Started Guide](https://github.com/ONNC/onnc/blob/master/docs/ONNC-Pass-Manager-Getting-Started-Guide.md)
+- [ONNC Backend Developer Guide](https://github.com/ONNC/onnc/blob/master/docs/ONNC-Backend-Porting-Guide.md)
+- [The Code Emitting Pass User Guide](https://github.com/ONNC/onnc/blob/master/docs/The-Code-Emitting-Pass-User-Guide.md)
+- [ONNC IR Extension Guide](https://github.com/ONNC/onnc/blob/master/docs/ONNC-IR-Extension-Guide.md)
 
 
