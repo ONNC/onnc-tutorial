@@ -4,6 +4,8 @@ The NVIDIA Deep Learning Accelerator provides free intellectual property licensi
 
 ONNC (Open Neural Network Compiler) is a retargetable compilation framework designed specifically for proprietary deep learning accelerators. Its software architecture expedites porting ONNC to any Deep Learning Accelerator (DLA) design that supports [ONNX (Open Neural Network Exchange)](https://onnx.ai/) operators. ONNC guarantees executability across every DLA by means of transforming ONNX models into DLA-specific binary forms and leveraging the intermediate representation (IR) design of ONNX along with effective algorithms to eliminate the overhead of data movement. **ONNC is the first open source compiler available for NVDLA-based hardware designs**. Its NVDLA backend can compile a model into an executable NVDLA Loadable file. Integrating ONNC with the NVDLA software stack opens up opportunities for developers and researchers to explore the NVDLA-based inference design at system level. 
 
+This tutorial was presented at [MICRO 2019: The 52nd IEEE/ACM International Symposium on Microarchitecture (October 12th)](https://www.microarch.org/micro52/program/workshops.html#onnc) , Columbus, Ohio. 
+
 ## Intended Audience
 
 Researchers and practitioners in academia or industry looking for an open-source AI compiler for NVDLA-based neural network inference engines.
