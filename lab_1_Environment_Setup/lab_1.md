@@ -19,7 +19,7 @@ The latest ONNC source code is available on GitHub. Please follow the following 
 ```sh
 $ git clone https://github.com/ONNC/onnc.git
 $ cd onnc
-$ git checkout tags/1.2.0
+$ git checkout tags/1.3.0
 $ cd ..
 ```
 
