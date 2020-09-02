@@ -59,7 +59,7 @@ Let's write a pass to generate the above Graphviz script in ONNC.
 
 Please finish the following labs first before continuing this lab.
 
-* [lab 1: Environment Setup](../lab_1_Environement_Setup/lab_1.md) for preparing the Docker images and ONNC source codes.
+* [lab 1: Environment Setup](../lab_1_Environment_Setup/lab_1.md) for preparing the Docker images and ONNC source codes.
 * [lab 3: Starting New Backend](../lab_3_Starting_New_Backend/lab_3.md) for preparing the experimental backend `FooNvdla` for the exercise in this lab.
 * [lab 4: Code Emitting](../lab_4_Code_Emitting/lab_4.md) for setting up the utilities needed by the exampled ONNX model in this lab.
 

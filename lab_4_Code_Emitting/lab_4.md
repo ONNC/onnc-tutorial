@@ -41,7 +41,7 @@ The Operator Add is supported by NVDLA using the SDP engine. By the end of this 
 
 Please finish the following labs before continuing this lab.
 
-* [lab 1: Environment Setup](../lab_1_Environement_Setup/lab_1.md) for preparing the Docker images and ONNC source code.
+* [lab 1: Environment Setup](../lab_1_Environment_Setup/lab_1.md) for preparing the Docker images and ONNC source code.
 * [lab 3: Starting New Backend](../lab_3_Starting_New_Backend/lab_3.md) for preparing the experimental backend, `FooNvdla`, for the exercise in this lab.
 
 After the preparation, you should have the backend,`FooNvdla`, ready and its code can be found in `<path/to/onnc>/lib/Target/FooNvdla`. For the rest of this lab, all the source code modification is done in the NVDLA backend, `FooNvdla`.
