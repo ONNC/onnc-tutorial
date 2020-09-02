@@ -17,7 +17,7 @@ In terms of file structure, all backend code is placed inside the directory, `<p
 ### Step 1: Set up environment.
 
 Please finish the following labs before continuing this lab.
-* [lab 1: Environment Setup](../lab_1_Environement_Setup/lab_1.md) for preparing the Docker images and ONNC source codes.
+* [lab 1: Environment Setup](../lab_1_Environment_Setup/lab_1.md) for preparing the Docker images and ONNC source codes.
 
 The backend-creating script is included in the ONNC source code and can be run within the ONNC-community Docker container.
 
@@ -30,7 +30,7 @@ Running the script needs certain packages installed in your working environment.
 $ docker run -ti --rm -v <path/to/onnc>:/onnc/onnc onnc/onnc-community
 ```
 
-We have described how to set up a pre-built working environment in [Lab 1](../lab_1_Environement_Setup/lab_1.md). If you are not familiar with the ONNC-community Docker container, please go through Lab 1 first to setup your working environment. Once you enter the Docker container, type the following commands in the prompt to create a new backend called FooNvdla.
+We have described how to set up a pre-built working environment in [Lab 1](../lab_1_Environment_Setup/lab_1.md). If you are not familiar with the ONNC-community Docker container, please go through Lab 1 first to setup your working environment. Once you enter the Docker container, type the following commands in the prompt to create a new backend called FooNvdla.
 
 ```sh
 # Within the onnc/onnc-community Docker container
