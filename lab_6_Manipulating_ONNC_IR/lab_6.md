@@ -77,6 +77,8 @@ Pass is an abstraction of each execution in ONNC framework. It is designed for m
 First, create a pass by inheriting from the `CustomPass<T>` abstract class.
 
 ```cpp
+// GraphvizONNCIRPass.h
+
 #include <onnc/Core/CustomPass.h>
 
 class GraphvizONNCIRPass : public CustomPass<GraphvizONNCIRPass>
